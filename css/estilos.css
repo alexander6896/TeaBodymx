@@ -8,6 +8,7 @@ body {
     height: 100px;
     display: block;
     /* background: rgba(255, 215, 0, .3); */
+    /* position: fixed; */
 }
 
 .logo img {
@@ -19,7 +20,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
 }
 
 .header ol {
@@ -34,7 +34,7 @@ body {
     text-decoration: none;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: italic;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .imagenes-portada {
@@ -43,4 +43,9 @@ body {
 
 .imagenes-varias {
     width: 50px;
+}
+
+.footer {
+    /* width: 100%;
+    height: 5000px; */
 }
