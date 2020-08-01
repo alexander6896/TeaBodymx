@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.header {
+    max-width: 100%;
+    background: #FFBC97;
+    height: 100px;
+    display: block;
+    /* background: rgba(255, 215, 0, .3); */
+}
+
+.logo img {
+    width: 250px;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.header ol {
+    display: flex;
+    list-style-type: none;
+    margin-right: 110px;
+}
+
+.header ol a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.imagenes-portada {
+    width: 100px;
+}
+
+.imagenes-varias {
+    width: 50px;
+}
