@@ -12,7 +12,8 @@ body {
 }
 
 .logo img {
-    width: 250px;
+    width: 150px;
+    margin-left: 50px;
 }
 
 .menu {
@@ -60,7 +61,8 @@ body {
 
 .marca {
     text-align: center;
-    background: #d98f5b;
+    /* background: #FFBC97; */
+    background-color: rgba(255, 188, 151, .5);
     margin: 50px;
 }
 
@@ -70,15 +72,6 @@ body {
     font-family: 'Rowdies', cursive;
     letter-spacing: 20px;
     color: rgb(160, 108, 163);
-    margin: 0;
-    padding: 30px;
-}
-
-.marca p {
-    font-family: 'Lobster', cursive;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: #D0ADD2;
     margin: 0;
     padding: 30px;
 }
@@ -178,36 +171,13 @@ body {
     /* margin: 50px; */
     max-width: 100%;
     flex: 1;
+    flex-direction: column;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-}
-
-.form-email input {
-    border-color: gray;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 10px 20px 10px 25px;
-}
-
-.form-email button {
-    display: block;
-    margin-top: 10px;
-    background: transparent;
-    color: white;
-    padding: 10px 0;
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 10px;
-}
-
-.form-email p {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-weight: bold;
 }
 
 .contacto-nombre {
