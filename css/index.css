@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: #F4FBFF;
 }
 
 .header {
@@ -43,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     /* background: rgba(136, 91, 67, 0.1); */
-    background: #F4FBFF;
+    /* background: #F4FBFF; */
 }
 
 .imagenes-portada p {

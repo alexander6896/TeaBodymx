@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: #F4FBFF;
 }
 
 .header {
@@ -36,6 +37,24 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     font-style: italic;
     font-size: 19px;
+}
+
+.cuerpo-producto {
+    max-width: 100%;
+}
+
+.producto {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* grid-template-areas: "col1 col2"; */
+}
+
+.figure {
+    /* grid-area: col1; */
+}
+
+.especificaciones-producto {
+    /* grid-area: col2; */
 }
 
 .contacto {
